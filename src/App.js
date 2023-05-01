@@ -1,4 +1,5 @@
 import Banner from "./components/Banner/Banner";
+import TextField from "./components/TextField";
 
 function App() {
 	return (
@@ -6,6 +7,9 @@ function App() {
 			<header>
 				<Banner />
 			</header>
+			<main>
+				<TextField />
+			</main>
 		</div>
 	);
 }
