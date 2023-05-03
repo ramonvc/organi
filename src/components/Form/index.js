@@ -22,8 +22,8 @@ class Form extends React.Component {
 			<section className="form">
 				<form>
 					<h2>Preenche os dados para criar o card do jogador</h2>
-					<TextField label="Nome" placeholder="Digite seu nome" />
-					<TextField label="Cargo" placeholder="Digite seu cargo" />
+					<TextField label="Nome" placeholder="Digite seu nome" required={true} />
+					<TextField label="Cargo" placeholder="Digite seu cargo" required={true} />
 					<TextField label="Imagem" placeholder="Digite o endereço da imagem" />
 					<Dropdown label="Rank" items={ranks} />
 					<Button>Criar Card</Button>
