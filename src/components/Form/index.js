@@ -16,11 +16,15 @@ const ranks = [
 	"Desafiante",
 ];
 
+const onSave = (event) => {
+	event.preventDefault();
+};
+
 class Form extends React.Component {
 	render() {
 		return (
 			<section className="form">
-				<form>
+				<form onSubmit={onSave}>
 					<h2>Preenche os dados para criar o card do jogador</h2>
 					<TextField label="Nome" placeholder="Digite seu nome" required={true} />
 					<TextField label="Cargo" placeholder="Digite seu cargo" required={true} />
