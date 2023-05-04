@@ -8,7 +8,7 @@ class Dropdown extends React.Component {
 				<label>{this.props.label}</label>
 				<select
 					onChange={(event) => this.props.onChanged(event.target.value)}
-					value={this.pros.value}>
+					value={this.props.value}>
 					{this.props.items.map((item) => (
 						<option key={item}>{item}</option>
 					))}
