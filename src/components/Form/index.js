@@ -4,7 +4,7 @@ import TextField from "../TextField";
 import Dropdown from "../Dropdown";
 import Button from "../Button";
 
-const Form = () => {
+const Form = (props) => {
 	const [name, setName] = useState("");
 	const [position, setPosition] = useState("");
 	const [image, setImage] = useState("");
@@ -24,6 +24,12 @@ const Form = () => {
 
 	const onSave = (event) => {
 		event.preventDefault();
+		props.onCollaboratorRegistered({
+			name,
+			position,
+			image,
+			rank
+		})
 	};
 
 	return (
