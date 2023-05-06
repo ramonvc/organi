@@ -12,7 +12,7 @@ const Form = (props) => {
 
 	const onSave = (event) => {
 		event.preventDefault();
-		props.onCollaboratorRegistered({
+		props.onPlayerRegistered({
 			name,
 			position,
 			image,

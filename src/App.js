@@ -52,9 +52,9 @@ function App() {
 		},
 	];
 
-	const [collaborators, setCollaborators] = useState([]);
-	const onNewCollaboratorAdded = (collaborator) => {
-		setCollaborators([...collaborators, collaborator]);
+	const [Players, setPlayers] = useState([]);
+	const onNewPlayerAdded = (Player) => {
+		setPlayers([...Players, Player]);
 	};
 
 	return (
@@ -66,7 +66,7 @@ function App() {
 				<article>
 					<Form
 						ranks={ranks.map((rank) => rank.name)}
-						onCollaboratorRegistered={(collaborator) => onNewCollaboratorAdded(collaborator)}
+						onPlayerRegistered={(Player) => onNewPlayerAdded(Player)}
 					/>
 					{ranks.map((rank) => (
 						<Rank
