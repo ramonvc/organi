@@ -29,20 +29,20 @@ const Form = (props) => {
 					placeholder="Digite seu nome"
 					required={true}
 					value={name}
-					onInput={(value) => setName(value)}
+					onChanged={(value) => setName(value)}
 				/>
 				<TextField
 					label="Cargo"
 					placeholder="Digite seu cargo"
 					required={true}
 					value={position}
-					onInput={(value) => setPosition(value)}
+					onChanged={(value) => setPosition(value)}
 				/>
 				<TextField
 					label="Imagem"
 					placeholder="Digite o endereço da imagem"
 					value={image}
-					onInput={(value) => setImage(value)}
+					onChanged={(value) => setImage(value)}
 				/>
 				<Dropdown 
 					label="Rank" 
