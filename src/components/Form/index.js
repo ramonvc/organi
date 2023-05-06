@@ -10,18 +10,6 @@ const Form = (props) => {
 	const [image, setImage] = useState("");
 	const [rank, setRank] = useState("");
 
-	const ranks = [
-		"Ferro",
-		"Bronze",
-		"Prata",
-		"Ouro",
-		"Platina",
-		"Diamante",
-		"Mestre",
-		"Grão-mestre",
-		"Desafiante",
-	];
-
 	const onSave = (event) => {
 		event.preventDefault();
 		props.onCollaboratorRegistered({
@@ -58,7 +46,7 @@ const Form = (props) => {
 				/>
 				<Dropdown 
 					label="Rank" 
-					items={ranks} 
+					items={props.ranks} 
 					value={rank} 
 					onChanged={(value) => setRank(value)} 
 				/>

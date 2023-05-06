@@ -64,7 +64,10 @@ function App() {
 			</header>
 			<main>
 				<article>
-					<Form onCollaboratorRegistered={(collaborator) => onNewCollaboratorAdded(collaborator)} />
+					<Form
+						ranks={ranks.map((rank) => rank.name)}
+						onCollaboratorRegistered={(collaborator) => onNewCollaboratorAdded(collaborator)}
+					/>
 					{ranks.map((rank) => (
 						<Rank
 							key={rank.name}
