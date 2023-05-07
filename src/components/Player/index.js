@@ -1,14 +1,14 @@
 import "./Player.css";
 
-const Player = (props) => {
+const Player = ({name, position, image}) => {
 	return (
 		<div className="player">
 			<div className="header">
-				<img src="https://github.com/ramonvc.png" alt="Ramon Victor" />
+				<img src={image} alt={name} />
 			</div>
 			<div className="footer">
-				<h4>Ramon Victor</h4>
-				<h5>Jungle</h5>
+				<h4>{name}</h4>
+				<h5>{position}</h5>
 			</div>
 		</div>
 	);

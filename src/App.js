@@ -52,9 +52,9 @@ function App() {
 		},
 	];
 
-	const [Players, setPlayers] = useState([]);
-	const onNewPlayerAdded = (Player) => {
-		setPlayers([...Players, Player]);
+	const [players, setPlayers] = useState([]);
+	const onNewPlayerAdded = (player) => {
+		setPlayers([...players, player]);
 	};
 
 	return (
@@ -66,7 +66,7 @@ function App() {
 				<article>
 					<Form
 						ranks={ranks.map((rank) => rank.name)}
-						onPlayerRegistered={(Player) => onNewPlayerAdded(Player)}
+						onPlayerRegistered={(player) => onNewPlayerAdded(player)}
 					/>
 					{ranks.map((rank) => (
 						<Rank
@@ -74,6 +74,7 @@ function App() {
 							name={rank.name}
 							primaryColor={rank.primaryColor}
 							secundaryColor={rank.secundaryColor}
+							players={players.filter(player => player.rank === rank.name)}
 						/>
 					))}
 				</article>
