@@ -16,8 +16,16 @@ const Form = (props) => {
 			name,
 			position,
 			image,
-			rank
-		})
+			rank,
+		});
+		clearInputs();
+	};
+
+	const clearInputs = () => {
+		setName("");
+		setPosition("");
+		setImage("");
+		setRank("");
 	};
 
 	return (
@@ -44,11 +52,11 @@ const Form = (props) => {
 					value={image}
 					onChanged={(value) => setImage(value)}
 				/>
-				<Dropdown 
-					label="Rank" 
-					items={props.ranks} 
-					value={rank} 
-					onChanged={(value) => setRank(value)} 
+				<Dropdown
+					label="Rank"
+					items={props.ranks}
+					value={rank}
+					onChanged={(value) => setRank(value)}
 				/>
 				<Button>Criar Card</Button>
 			</form>
