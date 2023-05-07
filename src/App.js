@@ -8,47 +8,47 @@ function App() {
 		{
 			name: "Ferro",
 			primaryColor: "#57C278",
-			secundaryColor: "#D9F7E9",
+			secondaryColor: "#D9F7E9",
 		},
 		{
 			name: "Bronze",
 			primaryColor: "#82CFFA",
-			secundaryColor: "#E8F8FF",
+			secondaryColor: "#E8F8FF",
 		},
 		{
 			name: "Prata",
 			primaryColor: "#A6D157",
-			secundaryColor: "#F0F8E2",
+			secondaryColor: "#F0F8E2",
 		},
 		{
 			name: "Ouro",
 			primaryColor: "#E06B69",
-			secundaryColor: "#FDE7E8",
+			secondaryColor: "#FDE7E8",
 		},
 		{
 			name: "Platina",
 			primaryColor: "#DB63BF",
-			secundaryColor: "#FAE9F5",
+			secondaryColor: "#FAE9F5",
 		},
 		{
 			name: "Diamante",
 			primaryColor: "#FF8A05",
-			secundaryColor: "#FFF5D9",
+			secondaryColor: "#FFF5D9",
 		},
 		{
 			name: "Mestre",
 			primaryColor: "#FF8A29",
-			secundaryColor: "#FFEEDF",
+			secondaryColor: "#FFEEDF",
 		},
 		{
 			name: "Grão-mestre",
 			primaryColor: "#DB6EBF",
-			secundaryColor: "#FAE9F5",
+			secondaryColor: "#FAE9F5",
 		},
 		{
 			name: "Desafiante",
 			primaryColor: "#82CFFA",
-			secundaryColor: "#E8F8FF",
+			secondaryColor: "#E8F8FF",
 		},
 	];
 
@@ -73,7 +73,7 @@ function App() {
 							key={rank.name}
 							name={rank.name}
 							primaryColor={rank.primaryColor}
-							secundaryColor={rank.secundaryColor}
+							secondaryColor={rank.secondaryColor}
 							players={players.filter(player => player.rank === rank.name)}
 						/>
 					))}
