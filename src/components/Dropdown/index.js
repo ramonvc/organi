@@ -3,13 +3,15 @@ import "./Dropdown.css";
 
 class Dropdown extends React.Component {
 	render() {
+		const { label, onChanged, value, items, placeholder } = this.props;
 		return (
 			<div className="dropdown">
-				<label>{this.props.label}</label>
+				<label>{label}</label>
 				<select
-					onChange={(event) => this.props.onChanged(event.target.value)}
-					value={this.props.value}>
-					{this.props.items.map((item) => (
+					onChange={(event) => onChanged(event.target.value)}
+					value={value}>
+					<option>{placeholder}</option>
+					{items.map((item) => (
 						<option key={item}>{item}</option>
 					))}
 				</select>

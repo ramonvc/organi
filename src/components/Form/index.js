@@ -54,6 +54,7 @@ const Form = (props) => {
 				/>
 				<Dropdown
 					label="Rank"
+					placeholder="Selecione"
 					items={props.ranks}
 					value={rank}
 					onChanged={(value) => setRank(value)}
