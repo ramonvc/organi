@@ -1,9 +1,9 @@
 import "./Player.css";
 
-const Player = ({name, position, image}) => {
+const Player = ({ name, position, image, backgroundColor }) => {
 	return (
 		<div className="player">
-			<div className="header">
+			<div className="header" style={{ backgroundColor: backgroundColor }}>
 				<img src={image} alt={name} />
 			</div>
 			<div className="footer">
