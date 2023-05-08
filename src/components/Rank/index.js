@@ -12,7 +12,7 @@ const Rank = ({players, name, primaryColor, secondaryColor}) => {
         <h3 style={{ borderColor: primaryColor }}>{name}</h3>
         <div className="players">
           {players.map((player) => (
-            <Player name={player.name} position={player.position} image={player.image} />
+            <Player key={player.name} name={player.name} position={player.position} image={player.image} />
           ))}
         </div>
       </section>
