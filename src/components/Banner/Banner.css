@@ -18,6 +18,6 @@
 /* Media query */
 @media screen and (max-width: 768px) {
 	.banner .logo {
-		width: 40%; /* Ajuste a largura da logo para telas médias */
+		width: 40%;
 	}
 }
