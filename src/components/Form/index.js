@@ -39,10 +39,10 @@ const Form = (props) => {
 					value={name}
 					onChanged={(value) => setName(value)}
 				/>
-				<TextField
-					label="Cargo"
-					placeholder="Digite seu cargo"
-					required={true}
+				<Dropdown
+					label="Posição"
+					placeholder="Selecione"
+					items={props.positions}
 					value={position}
 					onChanged={(value) => setPosition(value)}
 				/>

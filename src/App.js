@@ -52,6 +52,24 @@ function App() {
 		},
 	];
 
+	const positions = [
+		{
+			name: "Topo",
+		},
+		{
+			name: "Selva",
+		},
+		{
+			name: "Meio",
+		},
+		{
+			name: "Atirador",
+		},
+		{
+			name: "Suporte",
+		},
+	];
+
 	const [players, setPlayers] = useState([]);
 	const onNewPlayerAdded = (player) => {
 		setPlayers([...players, player]);
@@ -64,7 +82,11 @@ function App() {
 			</header>
 			<main>
 				<article>
-					<Form ranks={ranks} onPlayerRegistered={(player) => onNewPlayerAdded(player)} />
+					<Form
+						ranks={ranks}
+						positions={positions}
+						onPlayerRegistered={(player) => onNewPlayerAdded(player)}
+					/>
 					{ranks.map((rank) => (
 						<Rank
 							key={rank.name}
