@@ -7,47 +7,47 @@ function App() {
 	const ranks = [
 		{
 			name: "Ferro",
-			primaryColor: "#57C278",
+			primaryColor: "#51443F",
 			secondaryColor: "#D9F7E9",
 		},
 		{
 			name: "Bronze",
-			primaryColor: "#82CFFA",
+			primaryColor: "#54382E",
 			secondaryColor: "#E8F8FF",
 		},
 		{
 			name: "Prata",
-			primaryColor: "#A6D157",
+			primaryColor: "#2A363A",
 			secondaryColor: "#F0F8E2",
 		},
 		{
 			name: "Ouro",
-			primaryColor: "#E06B69",
+			primaryColor: "#BC8538",
 			secondaryColor: "#FDE7E8",
 		},
 		{
 			name: "Platina",
-			primaryColor: "#DB63BF",
+			primaryColor: "#11453D",
 			secondaryColor: "#FAE9F5",
 		},
 		{
 			name: "Diamante",
-			primaryColor: "#FF8A05",
+			primaryColor: "#3868CE",
 			secondaryColor: "#FFF5D9",
 		},
 		{
 			name: "Mestre",
-			primaryColor: "#FF8A29",
+			primaryColor: "#78378B",
 			secondaryColor: "#FFEEDF",
 		},
 		{
 			name: "Grão-mestre",
-			primaryColor: "#DB6EBF",
+			primaryColor: "#9E2633",
 			secondaryColor: "#FAE9F5",
 		},
 		{
 			name: "Desafiante",
-			primaryColor: "#82CFFA",
+			primaryColor: "#80DDE8",
 			secondaryColor: "#E8F8FF",
 		},
 	];
