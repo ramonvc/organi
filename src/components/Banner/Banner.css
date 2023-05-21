@@ -1,8 +1,23 @@
 .banner {
-    background-color: #40916C;
-    text-align: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.banner img {
-    max-width: 100%;
+.banner .background-img {
+	filter: blur(3px);
+	width: 100%;
+}
+
+.banner .logo {
+	position: absolute;
+	width: 25%;
+}
+
+/* Media query */
+@media screen and (max-width: 768px) {
+	.banner .logo {
+		width: 40%; /* Ajuste a largura da logo para telas médias */
+	}
 }
