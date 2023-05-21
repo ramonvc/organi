@@ -22,3 +22,21 @@
     border: 1px solid rgba(255, 255, 255, 0.125);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
 }
+
+
+/* Media query */
+@media screen and (max-width: 768px) {
+	.text-field label {
+		font-size: 1.125rem;
+	}
+    .text-field input {
+		font-size: 1.125rem;
+        padding: 18px 12px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.text-field input {
+		font-size: 0.875rem;
+	}
+}
