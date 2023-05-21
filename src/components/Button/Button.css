@@ -1,5 +1,5 @@
 .button {
-	background-color: #BC8538;
+	background-color: #bc8538;
 	border-radius: 10px;
 	font-weight: 700;
 	font-size: 1.125rem;
@@ -7,9 +7,23 @@
 	border: none;
 	color: #fff;
 	cursor: pointer;
-    margin: 32px 0px;
+	margin: 32px 0px;
 }
 
 .button:hover {
-	background-color: #BC8538;
+	background-color: #bc8538;
+}
+
+/* Media query */
+@media screen and (max-width: 768px) {
+	.button {
+		font-size: 1rem;
+		padding: 18px 12px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.button {
+		font-size: 0.875rem;
+	}
 }
