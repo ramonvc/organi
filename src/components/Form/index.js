@@ -29,9 +29,9 @@ const Form = (props) => {
 	};
 
 	return (
-		<section className="form">
+		<section className="form-container">
 			<form onSubmit={onSave}>
-				<h2>Preenche os dados para criar o card do jogador</h2>
+				<h2 className="form-title">Preenche os dados para criar o card do jogador</h2>
 				<TextField
 					label="Nome"
 					placeholder="Digite seu nome"
