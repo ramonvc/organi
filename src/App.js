@@ -64,17 +64,14 @@ function App() {
 			</header>
 			<main>
 				<article>
-					<Form
-						ranks={ranks.map((rank) => rank.name)}
-						onPlayerRegistered={(player) => onNewPlayerAdded(player)}
-					/>
+					<Form ranks={ranks} onPlayerRegistered={(player) => onNewPlayerAdded(player)} />
 					{ranks.map((rank) => (
 						<Rank
 							key={rank.name}
 							name={rank.name}
 							primaryColor={rank.primaryColor}
 							secondaryColor={rank.secondaryColor}
-							players={players.filter(player => player.rank === rank.name)}
+							players={players.filter((player) => player.rank === rank.name)}
 						/>
 					))}
 				</article>

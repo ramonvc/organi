@@ -7,12 +7,12 @@ class Dropdown extends React.Component {
 		return (
 			<div className="dropdown">
 				<label>{label}</label>
-				<select
-					onChange={(event) => onChanged(event.target.value)}
-					value={value}>
+				<select onChange={(event) => onChanged(event.target.value)} value={value}>
 					<option>{placeholder}</option>
 					{items.map((item) => (
-						<option key={item}>{item}</option>
+						<option key={item.name} style={{ color: item.primaryColor }}>
+							{item.name}
+						</option>
 					))}
 				</select>
 			</div>
