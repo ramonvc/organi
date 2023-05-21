@@ -13,6 +13,12 @@
 .banner .logo {
 	position: absolute;
 	width: 25%;
+	transition: transform 1s;
+}
+
+.banner .logo:hover {
+	cursor: pointer;
+	transform: scale(1.1);
 }
 
 /* Media query */
