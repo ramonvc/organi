@@ -1,5 +1,7 @@
 .player {
+	cursor: pointer;
 	width: 280px;
+	border-radius: 4px;
 }
 
 .player > .header {
