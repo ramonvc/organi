@@ -48,7 +48,7 @@ function App() {
 		{
 			name: "Desafiante",
 			primaryColor: "#80DDE8",
-			secondaryColor: "#0A1011",
+			secondaryColor: "#604013",
 		},
 	];
 
