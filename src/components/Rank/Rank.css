@@ -3,9 +3,10 @@
     padding: 32px;
 }
 
-.rank h3 {
+.rank .name {
+    color: #ffffffce;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.75rem;
     border-bottom: 4px solid;
     padding-bottom: 8px;
 }

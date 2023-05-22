@@ -8,47 +8,47 @@ function App() {
 		{
 			name: "Ferro",
 			primaryColor: "#51443F",
-			secondaryColor: "#D9F7E9",
+			secondaryColor: "#201B19",
 		},
 		{
 			name: "Bronze",
 			primaryColor: "#54382E",
-			secondaryColor: "#E8F8FF",
+			secondaryColor: "#211612",
 		},
 		{
 			name: "Prata",
 			primaryColor: "#2A363A",
-			secondaryColor: "#F0F8E2",
+			secondaryColor: "#111718",
 		},
 		{
 			name: "Ouro",
 			primaryColor: "#BC8538",
-			secondaryColor: "#FDE7E8",
+			secondaryColor: "#231809",
 		},
 		{
 			name: "Platina",
 			primaryColor: "#11453D",
-			secondaryColor: "#FAE9F5",
+			secondaryColor: "#061B17",
 		},
 		{
 			name: "Diamante",
 			primaryColor: "#3868CE",
-			secondaryColor: "#FFF5D9",
+			secondaryColor: "#091020",
 		},
 		{
 			name: "Mestre",
 			primaryColor: "#78378B",
-			secondaryColor: "#FFEEDF",
+			secondaryColor: "#190B1D",
 		},
 		{
 			name: "Grão-mestre",
 			primaryColor: "#9E2633",
-			secondaryColor: "#FAE9F5",
+			secondaryColor: "#2C080C",
 		},
 		{
 			name: "Desafiante",
 			primaryColor: "#80DDE8",
-			secondaryColor: "#E8F8FF",
+			secondaryColor: "#0A1011",
 		},
 	];
 

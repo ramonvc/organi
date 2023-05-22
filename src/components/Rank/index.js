@@ -9,11 +9,11 @@ const Rank = ({ players, name, primaryColor, secondaryColor }) => {
 	return (
 		hasPlayers() && (
 			<section className="rank" style={{ backgroundColor: secondaryColor }}>
-				<h3 style={{ borderColor: primaryColor }}>{name}</h3>
+				<h3 className="name" style={{ borderColor: primaryColor }}>{name}</h3>
 				<div className="players">
 					{players.map((player) => (
 						<Player
-							backgroundColor={primaryColor}
+							primaryColor={primaryColor}
 							key={player.name}
 							name={player.name}
 							position={player.position}
