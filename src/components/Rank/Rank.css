@@ -1,19 +1,19 @@
 .rank {
-    text-align: center;
-    padding: 32px;
+	text-align: center;
+	padding: 32px;
 }
 
-.rank .name {
-    color: #ffffffce;
-    display: inline-block;
-    font-size: 1.75rem;
-    border-bottom: 4px solid;
-    padding-bottom: 8px;
+.rank > .name {
+	color: #ffffffce;
+	display: inline-block;
+	font-size: 1.75rem;
+	border-bottom: 4px solid;
+	padding-bottom: 8px;
 }
 
-.rank .players {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 32px;
-    flex-wrap: wrap;
+.rank > .players {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 32px;
+	flex-wrap: wrap;
 }

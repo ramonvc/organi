@@ -1,10 +1,10 @@
-.dropdown label {
+.dropdown > label {
 	display: block;
 	margin-bottom: 8px;
 	font-size: 1.25rem;
 }
 
-.dropdown select {
+.dropdown > select {
 	width: 100%;
 	color: #fff;
 	font-size: 1.5rem;
@@ -18,23 +18,23 @@
 	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
 }
 
-.dropdown select option {
+.dropdown > select > option {
 	background-color: rgb(19, 13, 1);
 }
 
 /* Media query */
 @media screen and (max-width: 768px) {
-	.dropdown label {
+	.dropdown > label {
 		font-size: 1.125rem;
 	}
-	.dropdown select {
+	.dropdown > select {
 		font-size: 1.125rem;
 		padding: 18px 12px;
 	}
 }
 
 @media screen and (max-width: 480px) {
-	.dropdown select {
+	.dropdown > select {
 		font-size: 0.875rem;
 	}
 }

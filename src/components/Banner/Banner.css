@@ -5,25 +5,25 @@
 	align-items: center;
 }
 
-.banner .background-img {
+.banner > .background-img {
 	filter: blur(3px);
 	width: 100%;
 }
 
-.banner .logo {
+.banner > .logo {
 	position: absolute;
 	width: 25%;
 	transition: transform 1s;
 }
 
-.banner .logo:hover {
+.banner > .logo:hover {
 	cursor: pointer;
 	transform: scale(1.1);
 }
 
 /* Media query */
 @media screen and (max-width: 768px) {
-	.banner .logo {
+	.banner > .logo {
 		width: 40%;
 	}
 }
