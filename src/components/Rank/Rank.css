@@ -17,3 +17,19 @@
 	margin-top: 32px;
 	flex-wrap: wrap;
 }
+
+/* Media query */
+@media screen and (max-width: 768px) {
+	.rank {
+		padding: 16px;
+	}
+	.rank > .name {
+		font-size: 1.25rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.rank {
+		padding: 8px;
+	}
+}
