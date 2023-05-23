@@ -8,7 +8,7 @@ const Player = ({ name, position, image, primaryColor }) => {
 	const randomIconNumber = Math.floor(Math.random() * 10) + 1;
 
 	// Build the default icon path using the random number
-	const defaultImage = `${process.env.PUBLIC_URL}/icons/icon-${randomIconNumber}.webp`;
+	const defaultImage = `${process.env.PUBLIC_URL}/icons/profile/icon-${randomIconNumber}.webp`;
 
 	const handleImageError = () => {
 		setImageUrl(defaultImage);
