@@ -26,7 +26,7 @@
 }
 
 .player > .footer > .name {
-	font-size: 24px;
+	font-size: 1.5rem;
 	line-height: 22px;
 	font-weight: bold;
 	margin-bottom: 8px;
@@ -34,8 +34,46 @@
 
 .player > .footer > .position {
 	color: #ffffffce;
-	font-size: 16px;
+	font-size: 1rem;
 	line-height: 22px;
 	padding: 0 16px;
 	font-weight: 400;
+}
+
+/* Media query */
+@media screen and (max-width: 768px) {
+	.player {
+		width: 160px;
+	}
+	.player > .header > img {
+		width: 60px;
+	}
+	.player > .footer {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+	.player > .footer > .name {
+		font-size: 1.25rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.player {
+		width: 100px;
+	}
+	.player > .header > img {
+		width: 30px;
+		bottom: -20px;
+	}
+	.player > .footer {
+		padding-top: 2px;
+		padding-bottom: 4px;
+	}
+	.player > .footer > .name {
+		font-size: 1rem;
+		margin-bottom: 4px;
+	}
+	.player > .footer > .position {
+		font-size: 0.75rem;
+	}
 }
