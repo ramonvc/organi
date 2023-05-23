@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/organi/static/css/main.03b8526d.css",
-    "main.js": "/organi/static/js/main.05538087.js",
+    "main.js": "/organi/static/js/main.e420fc5b.js",
     "index.html": "/organi/index.html",
     "main.03b8526d.css.map": "/organi/static/css/main.03b8526d.css.map",
-    "main.05538087.js.map": "/organi/static/js/main.05538087.js.map"
+    "main.e420fc5b.js.map": "/organi/static/js/main.e420fc5b.js.map"
   },
   "entrypoints": [
     "static/css/main.03b8526d.css",
-    "static/js/main.05538087.js"
+    "static/js/main.e420fc5b.js"
   ]
 }
