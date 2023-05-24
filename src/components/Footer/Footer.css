@@ -1,0 +1,34 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ffffffa8;
+	font-size: 0.75rem;
+	background-color: black;
+	padding: 8px;
+}
+
+.footer span {
+	text-align: center;
+}
+
+.footer a {
+	color: inherit;
+	padding-left: 4px;
+}
+
+.footer .github-logo {
+	padding: 0px 8px;
+	margin-top: 8px;
+}
+
+/* Media query */
+@media screen and (max-width: 768px) {
+	.footer {
+		font-size: 0.625rem;
+	}
+	.footer .github-logo {
+		width: 14px;
+	}
+}

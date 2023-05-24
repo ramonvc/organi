@@ -1,6 +1,6 @@
 .rank {
 	text-align: center;
-	padding: 32px;
+	padding: 32px 0 64px 0;
 }
 
 .rank > .name {
@@ -21,7 +21,7 @@
 /* Media query */
 @media screen and (max-width: 768px) {
 	.rank {
-		padding: 16px;
+		padding-top: 16px;
 	}
 	.rank > .name {
 		font-size: 1.25rem;
@@ -30,6 +30,6 @@
 
 @media screen and (max-width: 480px) {
 	.rank {
-		padding: 8px;
+		padding-top: 8px;
 	}
 }

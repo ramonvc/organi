@@ -2,6 +2,7 @@ import { useState } from "react";
 import Banner from "./components/Banner/Banner";
 import Form from "./components/Form";
 import Rank from "./components/Rank";
+import Footer from "./components/Footer";
 
 function App() {
 	const ranks = [
@@ -98,6 +99,9 @@ function App() {
 					))}
 				</article>
 			</main>
+			<footer>
+				<Footer />
+			</footer>
 		</div>
 	);
 }
