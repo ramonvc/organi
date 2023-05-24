@@ -29,15 +29,12 @@
 	font-size: 1.5rem;
 	line-height: 22px;
 	font-weight: bold;
-	margin-bottom: 8px;
+	margin-bottom: 32px;
 }
 
-.player > .footer > .position {
-	color: #ffffffce;
-	font-size: 1rem;
-	line-height: 22px;
-	padding: 0 16px;
-	font-weight: 400;
+.player > .footer > .position-icon {
+	width: 28px;
+	height: 28px;
 }
 
 /* Media query */
@@ -55,6 +52,10 @@
 	.player > .footer > .name {
 		font-size: 1.25rem;
 	}
+	.player > .footer > .position-icon {
+		width: 22px;
+		height: 22px;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -66,8 +67,8 @@
 		bottom: -20px;
 	}
 	.player > .footer {
-		padding-top: 2px;
-		padding-bottom: 4px;
+		padding-top: 12px;
+		padding-bottom: 10px;
 	}
 	.player > .footer > .name {
 		font-size: 1rem;
@@ -75,5 +76,9 @@
 	}
 	.player > .footer > .position {
 		font-size: 0.75rem;
+	}
+	.player > .footer > .position-icon {
+		width: 16px;
+		height: 16px;
 	}
 }

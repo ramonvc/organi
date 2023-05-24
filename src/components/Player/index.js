@@ -8,11 +8,13 @@ const Player = ({ name, position, image, primaryColor }) => {
 	const randomIconNumber = Math.floor(Math.random() * 10) + 1;
 
 	// Build the default icon path using the random number
-	const defaultImage = `${process.env.PUBLIC_URL}/icons/profile/icon-${randomIconNumber}.webp`;
+	const defaultImagePath = `${process.env.PUBLIC_URL}/icons/profile/icon-${randomIconNumber}.webp`;
 
 	const handleImageError = () => {
-		setImageUrl(defaultImage);
+		setImageUrl(defaultImagePath);
 	};
+
+	const positionIconPath = `${process.env.PUBLIC_URL}/icons/position/position-${position}.png`;
 
 	return (
 		<div
@@ -27,7 +29,12 @@ const Player = ({ name, position, image, primaryColor }) => {
 				<h4 className="name" style={{ color: primaryColor }}>
 					{name}
 				</h4>
-				<h5 className="position">{position}</h5>
+				<img
+					className="position-icon"
+					src={positionIconPath}
+					alt={position}
+					title={position}
+				/>
 			</div>
 		</div>
 	);
