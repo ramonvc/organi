@@ -14,7 +14,7 @@ const Player = ({ name, position, image, primaryColor }) => {
 		setImageUrl(defaultImagePath);
 	};
 
-	const positionIconPath = `${process.env.PUBLIC_URL}/icons/position/position-${position}.png`;
+	const positionIconPath = `${process.env.PUBLIC_URL}/icons/position/position-${position.toLowerCase()}.png`;
 
 	return (
 		<div
