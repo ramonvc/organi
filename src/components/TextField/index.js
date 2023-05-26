@@ -7,7 +7,10 @@ const TextField = (props) => {
 
 	return (
 		<div className="text-field">
-			<label>{props.label}</label>
+			<label>
+				{props.label}
+				{props.required && <span> *</span>}
+			</label>
 			<input
 				onChange={onInput}
 				value={props.value}
