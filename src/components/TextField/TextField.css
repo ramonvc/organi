@@ -60,6 +60,9 @@
 		width: 10px;
 		padding: 0px 6px;
 	}
+	.text-field > label > .tooltip {
+		font-size: 0.75rem;
+	}
 	.text-field > input {
 		font-size: 1.125rem;
 		padding: 18px 12px;
