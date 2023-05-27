@@ -49,6 +49,9 @@ const Form = (props) => {
 					label="Imagem"
 					placeholder="Digite o endereço da imagem"
 					value={image}
+					tooltipHelp={
+						"Insira uma URL de imagem válida para o avatar do jogador (por exemplo, www.example.com/image-example.png). Caso não seja fornecida uma URL válida, o sistema atribuirá uma imagem automaticamente."
+					}
 					onChanged={(value) => setImage(value)}
 				/>
 				<Dropdown

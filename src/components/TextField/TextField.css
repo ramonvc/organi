@@ -8,6 +8,34 @@
 	font-size: 1.25rem;
 }
 
+.text-field > label > .icon-help {
+	width: 12px;
+	padding: 0px 8px;
+}
+
+.text-field > label > .icon-help:hover {
+	cursor: pointer;
+}
+
+.text-field > label > .tooltip {
+	position: absolute;
+	background-color: #333;
+	color: #fff;
+	padding: 8px;
+	border-radius: 4px;
+	font-size: 0.875rem;
+	max-width: 200px;
+	white-space: pre-wrap;
+	z-index: 10;
+	box-sizing: border-box;
+	backdrop-filter: blur(16px) saturate(200%);
+	-webkit-backdrop-filter: blur(16px) saturate(200%);
+	background-color: rgba(17, 25, 40, 0.3);
+	border-radius: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.125);
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+}
+
 .text-field > input {
 	color: #fff;
 	width: 100%;
@@ -27,6 +55,10 @@
 @media screen and (max-width: 768px) {
 	.text-field > label {
 		font-size: 1.125rem;
+	}
+	.text-field > label > .icon-help {
+		width: 10px;
+		padding: 0px 6px;
 	}
 	.text-field > input {
 		font-size: 1.125rem;
