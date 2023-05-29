@@ -25,7 +25,7 @@ A nova identidade visual foi criada por mim e pode ser acessada no Figma: [Organ
   
 ## 🌐 GitHub Pages   
   
-Você pode acessar a demo desse projeto clicando [aqui](ramonvc.github.io/organi/).
+Você pode acessar a demo desse projeto clicando [aqui](https://ramonvc.github.io/organi/).
  
 ## 📃 Licença  
   
